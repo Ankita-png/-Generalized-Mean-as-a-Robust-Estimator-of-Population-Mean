@@ -1,6 +1,6 @@
 rm(list=ls())
 #====================== Function for reading excel data =====================
-setwd("F:/COLLEGE WORK/STATS PRACTICAL (MSC 2ND YEAR)/MSC-SEM-IV/MSE_File")
+setwd(".../MSE_File")
 files = list.files(pattern = ".xlsx")
 library(readxl)
 f = function(ipath,isheet,irange){
